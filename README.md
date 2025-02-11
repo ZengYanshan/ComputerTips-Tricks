@@ -6,6 +6,8 @@
 
 ### 目录
 
+[Windows操作技巧](./chapter/Windows操作技巧.md)
+
 [Git操作技巧](./chapter/Git操作技巧.md)
 
 [JetBrain系（IDEA、PyCharm、AS）操作技巧](./chapter/JetBrain系（IDEA、PyCharm、AS）操作技巧.md)
