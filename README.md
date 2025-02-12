@@ -8,6 +8,8 @@
 
 [Windows操作技巧](./chapter/Windows操作技巧.md)
 
+[文本编辑器通用操作技巧](./chapter/文本编辑器通用操作技巧.md)
+
 [Git操作技巧](./chapter/Git操作技巧.md)
 
 [JetBrain系（IDEA、PyCharm、AS）操作技巧](./chapter/JetBrain系（IDEA、PyCharm、AS）操作技巧.md)
