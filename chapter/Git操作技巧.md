@@ -38,7 +38,7 @@ git config --global user.email "1309161028@qq.com"
 git config --global http.proxy http://127.0.0.1:7890
 ```
 
-`7890`：Clash的默认端口
+`7890`：Clash 的默认端口
 
 ##### 取消代理
 
@@ -84,7 +84,7 @@ git add .
 ##### 提交
 
 ```bash
-git commit # 之后会进入文本编辑
+git commit # 之后会进入提交信息文本编辑
 git commit -m "Story 182: Fix benchmarks for speed"
 ```
 
@@ -93,7 +93,7 @@ git commit -m "Story 182: Fix benchmarks for speed"
 ```bash
 # --soft：撤销提交，文件恢复到提交前状态（包括暂存）
 git reset --soft HEAD^ # git bash / powershell
-git reset --soft HEAD^^ # cmd中的换行符默认为^，需要转义
+git reset --soft HEAD^^ # cmd 中的换行符默认为 ^ ，需要转义
 # 查看帮助
 git reset -h
 ```
@@ -212,7 +212,7 @@ git push --set-upstream origin master
 git push -u origin main
 ```
 
-##### 4. 在另一台设备连接远程仓库
+##### 4. 在另一台设备克隆远程仓库
 
 ```bash
 git clone https://github.com/xxx/yyy.git
