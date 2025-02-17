@@ -14,6 +14,8 @@
 
 ##### 快捷代码
 
+**Java**
+
 `psvm` ：标准 Java main 函数
 
 `.var` ：接收返回值
@@ -25,6 +27,10 @@
 `foreach` ：foreach 循环
 
 `stful` ：【AS】快速创建 `StatefulWidget` 及其对应 `State` 类
+
+**Python**
+
+`main` : Python main 函数
 
 ##### 连带创建目录
 
