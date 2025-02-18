@@ -14,4 +14,4 @@
 
 [VSCode操作技巧](./chapter/VSCode操作技巧.md)
 
-[JetBrain系（IDEA、PyCharm、AS）操作技巧](./chapter/JetBrain系（IDEA、PyCharm、AS）操作技巧.md)
+[JetBrains系（IDEA、PyCharm、AS）操作技巧](./chapter/JetBrains系（IDEA、PyCharm、AS）操作技巧.md)
