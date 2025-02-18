@@ -32,13 +32,13 @@
 
 `main` : Python main 函数
 
-##### 连带创建目录
+##### 递归创建目录
 
 `parentDirectoryName.directoryName.fileName` ：新建文件
 
 `grandparentDirectoryName/parentDirectoryName/directoryName` ：新建目录
 
-> 若用类似新建文件的方法，会新建一个名字带 `.` 的目录
+> 若用类似新建文件的方法来新建目录，会新建一个名字带 `.` 的目录
 
 ##### 调整缩进
 
