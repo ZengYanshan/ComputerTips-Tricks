@@ -137,7 +137,8 @@ git clone https://github.com/xxx/yyy.git
 ##### 查看
 
 ```bash
-git remote
+# 查看远程仓库URL
+git remote -v
 ```
 
 ##### 增加
