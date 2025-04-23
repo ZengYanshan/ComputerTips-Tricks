@@ -223,6 +223,29 @@ git clone https://github.com/xxx/yyy.git
 
 
 
+#### 已有远程仓库分支，拉取到本地创建新分支
+
+##### 1. 获取远程仓库更新情况
+
+```bash
+git fetch
+```
+
+查看已记录到本地的分支
+
+```bash
+git branch -a
+```
+
+##### 2. 在本地创建同名新分支
+
+```bash
+git checkout new-branch # 自动跟踪同名远程分支
+git checkout -b new-branch origin/new-branch
+```
+
+
+
 #### 本地创建分支，在远程也创建并推送到对应分支
 
 ##### 1. 本地创建分支
