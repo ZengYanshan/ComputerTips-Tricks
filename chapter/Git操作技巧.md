@@ -304,3 +304,27 @@ git push
 
 
 
+## 交互方式
+
+
+
+### git bash 命令行
+
+
+
+#### 设置
+
+在 git bash 标题右键 - `Options`。
+
+![image-20250506185913449](./assets/image-20250506185913449.png)
+
+在 `Keys` 选项中可以调节复制粘贴快捷键。取消勾选 `Shortcuts` - `Copy and Paste (Ctrl/Shift+Ins)` 后，复制粘贴改为 `Ctrl` + `Shift` + `C` / `V` 。
+
+![image-20250506190211288](./assets/image-20250506190211288.png)
+
+
+
+### git GUI 界面
+
+
+
