@@ -141,6 +141,12 @@ git clone https://github.com/xxx/yyy.git
 git remote -v
 ```
 
+##### 修改/重设
+
+```bash
+git remote set-url origin https://github.com/xxx/yyy.git
+```
+
 ##### 增加
 
 ```bash
