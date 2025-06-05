@@ -147,6 +147,12 @@ git clone https://github.com/xxx/yyy.git
 git remote -v
 ```
 
+##### 修改/重设
+
+```bash
+git remote set-url origin https://github.com/xxx/yyy.git
+```
+
 ##### 增加
 
 ```bash
@@ -309,6 +315,32 @@ git push
 ```
 
 
+
+#### 上传大文件（超过100MB）
+
+##### 0. 安装 Git LFS
+
+略
+
+##### 1. 使用 Git LFS 跟踪大文件
+
+```bash
+git lfs track "path/to/large-file"
+```
+
+控制台显示：
+
+```
+Tracking "path/to/large-file"
+```
+
+##### 2. 现在可以像普通文件一样正常 add, commit, push 了
+
+```bash
+git add "path/to/large-file"
+git commit -m "commit message"
+git push
+```
 
 ## 交互方式
 
