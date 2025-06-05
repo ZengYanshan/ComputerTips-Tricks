@@ -98,6 +98,12 @@ git reset --soft HEAD^^ # cmd 中的换行符默认为 ^ ，需要转义
 git reset -h
 ```
 
+#### 导出 zip
+
+```bash
+git archive --format=zip --output="filename.zip" branch-name
+```
+
 
 
 ### .gitignore
@@ -287,13 +293,13 @@ git push --set-upstream origin new-branch-name
 ##### 1. 切换到主分支
 
 ```bash
-git checkout master
+git checkout main-branch-name
 ```
 
 ##### 2. 合并分支
 
 ```bash
-git merge dev
+git merge dev-branch-name
 ```
 
 ##### 3. 同步到远程仓库
