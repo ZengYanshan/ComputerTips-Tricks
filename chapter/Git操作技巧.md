@@ -346,13 +346,13 @@ git push
 
 
 
-### git bash 命令行
+### Git bash 命令行
 
 
 
 #### 设置
 
-在 git bash 标题右键 - `Options`。
+在 Git bash 标题右键 - `Options`。
 
 ![image-20250506185913449](./assets/image-20250506185913449.png)
 
@@ -362,7 +362,46 @@ git push
 
 
 
-### git GUI 界面
+### Git GUI 界面
 
 
 
+#### 基础功能
+
+Git GUI 界面如下图所示。
+
+主界面分为 4 块：
+
+- `Unstaged Changes` ：左上，列出有更改的文件。点击可选中文件，在右侧显示内容。
+
+- `Staged for commit` ：右上，显示选中文件更改内容，新增内容以绿色 `+` 标出，删减内容以红色 `-` 标出。
+
+- `Staged Changes (Will Commit)` ：左下，列出已暂存更改的文件。点击文件可取消暂存，使其回到左上框中。
+
+- 操作区：右下，提供 5 个按钮和 `Commit Message` 框。
+
+    - Rescan：刷新
+
+    - Stage Changed：暂存所有更改，相当于 `git add .` 
+
+    - Sign Off：在提交信息末尾增加签名，极少用到
+
+    - Commit：提交暂存的更改，信息为右侧 `Commit Message` 框中填写的内容，相当于 `git commit -m "Commit Message"` 
+
+    - Push：推送到远程仓库，相当于 `git push` 
+
+![image-20250608160157031](./assets/image-20250608160157031.png)
+
+
+
+#### 设置
+
+菜单栏 `Edit` - `Options` 。
+
+![image-20250608154549690](./assets/image-20250608154549690.png)
+
+在 `Default File Contents Encoding` 选项中可以修改编码，解决中文乱码问题。
+
+![image-20250608154710065](./assets/image-20250608154710065.png)
+
+![image-20250608154749257](./assets/image-20250608154749257.png)
