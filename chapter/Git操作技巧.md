@@ -208,7 +208,7 @@ git push
 
 
 
-#### 已有本地仓库，创建远程仓库
+#### 已有本地仓库，创建并推送到远程仓库
 
 > 在 `Github` 等的空仓库网页中可以找到以下所有命令
 
@@ -231,6 +231,18 @@ git push -u origin main
 
 ```bash
 git clone https://github.com/xxx/yyy.git
+```
+
+
+
+#### 已有带分支的本地仓库，创建并推送到远程仓库
+
+##### 1-3. 同上
+
+##### 4. 推送所有分支
+
+```bash
+git push origin --all
 ```
 
 
