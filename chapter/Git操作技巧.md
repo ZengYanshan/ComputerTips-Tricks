@@ -328,6 +328,30 @@ git push
 
 
 
+#### 一个本地仓库对应多个远程仓库
+
+##### 添加第一个远程仓库
+
+```bash
+git remote add origin https://github.com/xxx/yyy.git
+```
+
+##### 添加第二个远程仓库
+
+```bash
+git remote add backup https://gitee.com/xxx/yyy.git
+```
+
+##### 推送到远程仓库
+
+```bash
+// git push <repository> <branch_name>
+git push origin main
+git push backup main
+```
+
+
+
 #### 上传大文件（超过100MB）
 
 ##### 0. 安装 Git LFS
