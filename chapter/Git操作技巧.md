@@ -28,8 +28,6 @@ git config --global user.email "1309161028@qq.com"
 
 
 
-
-
 #### 代理（proxy）
 
 ##### 设置代理
@@ -189,8 +187,6 @@ git checkout branch-name
 ```bash
 git merge branch-name
 ```
-
-
 
 
 

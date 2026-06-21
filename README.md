@@ -12,3 +12,5 @@
 - [VSCode操作技巧](./chapter/VSCode操作技巧.md)
 - [JetBrains系（IDEA、PyCharm、AS）操作技巧](./chapter/JetBrains系（IDEA、PyCharm、AS）操作技巧.md)
 - [论文作图技巧](./chapter/论文作图技巧.md)
+
+- [Codex操作技巧](./chapter/Codex操作技巧.md)
