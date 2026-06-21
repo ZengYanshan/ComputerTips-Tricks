@@ -2,7 +2,7 @@
 
 
 
-## 配置
+## 配置（config）
 
 
 
@@ -30,7 +30,7 @@ git config --global user.email "1309161028@qq.com"
 
 
 
-#### 代理
+#### 代理（proxy）
 
 ##### 设置代理
 
@@ -68,7 +68,7 @@ git config --global --get http.proxy
 git init
 ```
 
-#### 暂存
+#### 暂存（add）
 
 ```bash
 # 单个文件
@@ -81,7 +81,7 @@ git add .
 
 #### 提交
 
-##### 提交
+##### 提交（commit）
 
 ```bash
 git commit # 之后会进入提交信息文本编辑
@@ -134,7 +134,7 @@ git archive --format=zip --output="filename.zip" branch-name
 
 #### 关联
 
-##### 克隆
+##### 克隆（clone）
 
 ```bash
 git clone https://github.com/xxx/yyy.git
@@ -161,7 +161,7 @@ git remote add origin https://github.com/xxx/yyy.git
 
 
 
-#### 分支
+#### 分支（branch）
 
 ##### 本地创建
 
@@ -194,7 +194,7 @@ git merge branch-name
 
 
 
-#### 推送
+#### 推送（push）
 
 ```bash
 // git push <repository> <branch_name_1> <branch_name_2> ... <branch_name_n>
