@@ -132,7 +132,7 @@ git archive --format=zip --output="filename.zip" branch-name
 
 
 
-#### 本地关联
+#### 关联
 
 ##### 克隆
 
@@ -197,7 +197,30 @@ git merge branch-name
 #### 推送
 
 ```bash
+// git push <repository> <branch_name_1> <branch_name_2> ... <branch_name_n>
+git push origin main
+git push backup main dev feature/login
+```
+
+##### 推送所有分支（--all）
+
+```bash
+// git push <repository> --all
+git push origin --all
+```
+
+##### 追踪（-u）
+
+```bash
+// git push -u <repository> <branch>
+git push -u origin main
 git push
+```
+
+查看追踪情况：
+
+```bash
+git branch -vv
 ```
 
 
@@ -342,13 +365,20 @@ git remote add origin https://github.com/xxx/yyy.git
 git remote add backup https://gitee.com/xxx/yyy.git
 ```
 
-##### 推送到远程仓库
+##### 首次推送到远程仓库
 
 ```bash
-// git push <repository> <branch_name>
-git push origin main
-git push backup main
+git push -u origin --all
+git push -u backup --all
 ```
+
+##### 后续推送到远程仓库
+
+```bash
+git push
+```
+
+
 
 
 
