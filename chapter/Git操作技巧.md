@@ -209,9 +209,10 @@ git push backup main dev feature/login
 git push origin --all
 ```
 
-##### 追踪（-u）
+##### 追踪（--set-upstream / -u）
 
 ```bash
+// git push --set-upstream <repository> <branch>
 // git push -u <repository> <branch>
 git push -u origin main
 git push
@@ -353,26 +354,34 @@ git push
 
 #### 一个本地仓库对应多个远程仓库
 
-##### 添加第一个远程仓库
+##### 1. 添加主备远程仓库
 
 ```bash
 git remote add origin https://github.com/xxx/yyy.git
+git remote set-url --add --push origin https://gitee.com/xxx/yyy.git
 ```
 
-##### 添加第二个远程仓库
+检查远程仓库：
 
 ```bash
-git remote add backup https://gitee.com/xxx/yyy.git
+git remote -v
 ```
 
-##### 首次推送到远程仓库
+理想输出：
+
+```bash
+origin  https://github.com/xxx/yyy.git (fetch)
+origin  https://github.com/xxx/yyy.git (push)
+origin  https://gitee.com/xxx/yyy.git (push)
+```
+
+##### 2. 首次推送到远程仓库
 
 ```bash
 git push -u origin --all
-git push -u backup --all
 ```
 
-##### 后续推送到远程仓库
+##### 3. 后续推送到远程仓库
 
 ```bash
 git push
