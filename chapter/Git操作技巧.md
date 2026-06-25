@@ -354,6 +354,7 @@ git push
 
 ```bash
 git remote add origin https://github.com/xxx/yyy.git
+git remote set-url --add --push origin https://github.com/xxx/yyy.git
 git remote set-url --add --push origin https://gitee.com/xxx/yyy.git
 ```
 
